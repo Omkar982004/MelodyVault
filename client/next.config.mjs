@@ -6,12 +6,12 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'hashguard.com',
+        hostname: 'MelodyVault.com',
         pathname: '/**',
       },
       {
         protocol: 'https',
-        hostname: 'www.hashguard.com',
+        hostname: 'www.MelodyVault.com',
         pathname: '/**',
       },
     ],
