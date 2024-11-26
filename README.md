@@ -1,6 +1,6 @@
 # MelodyVault - Music Player
 
-**Live Website**: [Visit MelodyVault](https://your-live-website-link.com)  <!-- Replace with the live URL -->
+**Live Website**: [melody-vault.vercel.app](https://melody-vault.vercel.app)  <!-- Replace with the live URL -->
 
 **MelodyVault** is a music playlist app where users can view, select, and manage their favorite playlists. This project is my first attempt at building a fully responsive web application using modern web technologies, and I'm excited to share it with you.
 
