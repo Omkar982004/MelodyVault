@@ -51,9 +51,12 @@ const MainPage: React.FC = () => {
 
   return (
     <div className="flex flex-col h-screen">
-      <header className="bg-gray-800 p-4">
-        <h1 className="text-white text-2xl">Spotify Clone</h1>
-      </header>
+      <header className="bg-gray-800 p-6 shadow-md">
+  <h1 className="text-white text-3xl font-semibold tracking-wide text-center">
+    Melody<span className="text-blue-500">Vault</span>
+  </h1>
+</header>
+
       <div className="flex flex-1 overflow-hidden">
         {/* Left Sidebar */}
         <LeftSidebar
