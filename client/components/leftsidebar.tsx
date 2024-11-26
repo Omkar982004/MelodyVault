@@ -9,7 +9,7 @@ interface LeftSidebarProps {
 
 const LeftSidebar: React.FC<LeftSidebarProps> = ({ selectedPlaylist, onSongSelect, currentSong }) => {
   return (
-    <div className="w-1/4 bg-gray-800 p-6 flex flex-col">
+    <div className="w-[400px] bg-gray-800 p-6 flex flex-col">
       {selectedPlaylist ? (
         <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
           {/* Playlist Title */}

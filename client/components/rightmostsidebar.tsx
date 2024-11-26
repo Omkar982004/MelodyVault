@@ -7,7 +7,7 @@ interface RightmostComponentProps {
 
 const RightmostComponent: React.FC<RightmostComponentProps> = ({ currentSong }) => {
   return (
-    <div className="flex flex-col w-1/4 bg-gray-800 p-6 shadow-lg">
+    <div className="flex flex-col w-[375px] bg-gray-800 p-6 shadow-lg">
       {currentSong ? (
         <div className="h-full bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
           <h3 className="text-white text-2xl font-semibold">{currentSong.title}</h3>
