@@ -1,0 +1,14 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/no-unescaped-entities": "off",  // Example for disabling a specific rule
+    "react/prop-types": "off",            // Another example
+    "indent": "off",                      // Disable indentation rule
+    "quotes": "off" 
+  },
+  "ignorePatterns": [
+    "tailwind.config.ts",
+    "postcss.config.mjs",
+    "next.config.mjs"
+  ]
+}

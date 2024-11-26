@@ -1,0 +1,6 @@
+Flask
+cryptography
+flask-cors
+reportlab
+pdf2image
+PyMuPDF

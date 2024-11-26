@@ -1,0 +1,47 @@
+.backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  @keyframes scrollCredits {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-scroll {
+    animation: scrollCredits 20s linear infinite; /* Adjust the timing as needed */
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 1s forwards;
+  }
+
+  /* Add this to your global styles */
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.animate__fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animate__delay-1s {
+  animation-delay: 1s;
+}
