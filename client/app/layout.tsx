@@ -4,7 +4,6 @@ import './globals.css';
 import { Metadata } from 'next';
 
 import React from 'react';
-import Header from './Header';
 
 
 export default function RootLayout({
@@ -23,8 +22,8 @@ export default function RootLayout({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | HashGuard',
-    default: 'HashGuard',
+    template: '%s | MelodyVault',
+    default: 'MelodyVault',
   },
-  description: 'HashGuard',
+  description: 'MelodyVault',
 };
