@@ -42,12 +42,4 @@ As this project evolves, I plan to work on the following improvements:
 - **User Authentication**: I plan to implement user authentication to allow users to save and manage their own playlists.
 - **Integration with Music APIs**: Future updates might include integrating with music streaming services like Spotify or YouTube for automatic playlist synchronization.
 
----
-
-## 💻 Contributing
-
-This is an ongoing project, and I am open to contributions! If you find any bugs or would like to contribute features, feel free to open an issue or create a pull request.
-
----
-
 ### Thanks for visiting **MelodyVault** – your personal music playlist app! 🎶
